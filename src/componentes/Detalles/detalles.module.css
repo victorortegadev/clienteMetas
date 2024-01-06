@@ -1,0 +1,68 @@
+.detalles{
+    height: fit-content;
+    font-weight: 500;
+    margin: 10px 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(172, 172, 172),
+    -2px -2px 3px white;
+    width: 480px;
+}
+.centrar{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sombra{
+    box-shadow: none;
+}
+.frecuencia input, .frecuencia select{
+    width: 100%;
+}
+.frecuencia input{
+    margin-right: 20px;
+}
+input,select{
+    background-color: rgb(238, 238, 238);
+    box-shadow: inset 3px 3px 5px rgb(172, 172, 172),
+    inset -1px -1px 5px white,
+    inset -1px -1px 0px rgb(172, 172, 172);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+form{
+    padding:  20px ;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+label div{
+    display: flex;
+    justify-content: space-between;
+}
+.deta_bajo{
+    padding: 10px 12px;
+    background: linear-gradient(
+        to right,
+        rgb(43, 43, 43),
+        white
+    );
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.button_negro{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    box-shadow: 3px 3px 5px rgb(22, 22, 22),
+    -1px -1px 1px rgb(107, 107, 107);
+}
+.button_red{
+    border: solid red 1px;
+    color:red;
+}

@@ -1,0 +1,15 @@
+
+.text{
+    margin-left: 10px;
+    color: black;
+    font-weight:500;
+}
+.plantilla{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icono{
+    height:27px; 
+    color:black;
+}

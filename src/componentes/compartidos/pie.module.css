@@ -1,0 +1,12 @@
+.pie{
+    z-index: 160;
+    text-align: right;
+    color: white;
+    font-size: 0.8em;
+    padding-right: 15px;
+    background: linear-gradient(
+        to left,
+        red,
+        orange
+    );
+}
