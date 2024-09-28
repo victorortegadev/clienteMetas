@@ -5,7 +5,6 @@ import { useNavigate, useParams } from 'react-router';
 import { actualizarMeta, borrarMeta, crearMeta } from '../servicios/PedidosB';
 
 function Detalles() { 
-
     const [form, setForm] = useState(
             {            
                 detalles : '',

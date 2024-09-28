@@ -26,7 +26,7 @@ function reductor (estado,accion){
             const metas = accion.metas
             const nuevoEstado = {
                 orden: metas.map((meta) => meta.id),
-                objeto: metas.reduce((objeto,meta) => ({...objeto, [meta.id]:meta}),{})
+                objeto: metas.reduce((objeto2,meta) => ({...objeto2, [meta.id]:meta}), {})
             } 
             return nuevoEstado
         }

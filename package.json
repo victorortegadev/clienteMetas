@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://servidormetas.onrender.com/"
+  "proxy": "http://localhost:3000"
 }

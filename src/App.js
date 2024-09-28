@@ -12,7 +12,7 @@ function App() {
     useEffect(() => {
       pedirMetas().then(metas=> enviar({tipo:'colocar', metas:metas}))
     },[])
-    global.console.log('Aplicacion react')
+    //global.console.log('Aplicacion react')
   return (
     <Routes>
           <Route path="/" element={<Layout/>}>
