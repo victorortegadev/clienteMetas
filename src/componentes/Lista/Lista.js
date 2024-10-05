@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext} from "react";
 import Meta from "../Meta/Meta";
 import { Contexto } from "../servicios/Memoria";
 
@@ -8,8 +8,7 @@ function Lista() {
 
     return (
         <div>
-            {estado.orden.map((id) => <Meta key={id} {...estado.objeto[id]}/>)}
-           
+            {estado.orden.map((id) => <Meta key={id} {...estado.objeto[id]}/>)}   
         </div>
     )
 }

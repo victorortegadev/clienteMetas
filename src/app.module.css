@@ -1,0 +1,37 @@
+/*////////Animación= cargando lista de metas////////////*/
+.contenedor_loader{ 
+    font-weight: 900;
+    display: grid;
+    color: #000;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    position: absolute;
+    top: 0;
+  }
+  .cargando{   
+  position: relative; 
+  color: #68bbff;;
+  margin-top: 2em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase
+  }
+  
+  .rueda {
+  border: 10px solid  #a0d4ff;
+  border-radius: 50%;
+  border-left-color: transparent;
+  width: 80px;
+  height: 80px;
+  animation: giro 1s linear infinite;
+  }
+  
+  @keyframes giro {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+  }
+  
